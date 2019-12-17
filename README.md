@@ -1,7 +1,5 @@
-Hi! I'm Violet Yao.
+Hi! I'm Will Lucena.
 
-This is my personal page. 
+This is my personal page.
 
-A great thanks to [Ziyao Zhang](https://github.com/ziyaointl) and [Yuhong Chen](https://github.com/FX196) for inspiration and guidance. 
-
-If you want to learn more, please feel free to contact me at violetyao@berkeley.edu
+Congratz to [Violet Yao](https://github.com/violetyao) for create this simple and direct profile page and left the code as open source.
