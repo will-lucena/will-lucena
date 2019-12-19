@@ -1,6 +1,6 @@
 body {
     font-size: 20px;
-    color: #3e3e3e;
+    color: #BDBDBD;
     font-family: 'Quattrocento Sans', sans-serif;
     font-weight: normal;
     background-color: #f9f9f9;
@@ -145,21 +145,22 @@ div.resume-section {
 
 div.resume-section-title {
     font-size: 1.2em;
-    font-weight: bolder
+    font-weight: bolder;
+    color: #eeeeee;
 }
 
 div.resume-date {
-    color: #006983;
+    color: #00B0FF;
 }
 
 div.resume-section-subtitle {
-    color: #3e3e3e;
+    color: #BDBDBD;
     font-size: 0.9em;
     font-weight: bold;
 }
 
 div.resume-body {
-    color: #8f8f8f;
+    color: #BDBDBD;
     font-size: 0.9em;
 }
 
@@ -173,7 +174,7 @@ div.canvas-overlay {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #f5f5f5;
+    background-color: #BDBDBD;
 }
 
 div:hover .canvas-overlay {
@@ -234,18 +235,18 @@ span {
 }
 
 a {
-    color: #007ACC;
+    color: #00B0FF;
     -webkit-transition: all 0.3s;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 .icon {
-    color: #3e3e3e;
+    color: #BDBDBD;
 }
 
 a:focus, a:hover {
-    color: #b5b5b5;
+    color: #B3E5FC;
     text-decoration: none;
 }
 
@@ -683,6 +684,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     h2.resume-block-title {
         font-size: 1.1em;
+        color: #FAFAFA;
     }
 
     div.resume-section {
@@ -691,7 +693,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     div.resume-section-title {
         font-size: 0.9em;
-        font-weight: bolder
+        font-weight: bolder;
     }
 
     div.resume-date {
@@ -700,7 +702,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     div.resume-section-subtitle {
-        color: #3e3e3e;
+        color: #BDBDBD;
         font-size: 0.7em;
         font-weight: bold;
     }
