@@ -3,7 +3,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 module.exports = {
-  content: ['./index.html', './src/**/*.{vue,css,scss}'],
+  content: ['./index.html', './src/**/*.{vue,css,js,ts}'],
   darkMode: 'class',
   theme: {
     extend: {
