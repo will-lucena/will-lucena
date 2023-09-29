@@ -25,6 +25,7 @@
 
 <script setup>
 import CasabellaContrutora from '@/assets/casabella-contrutora.png'
+import WillLucena from '@/assets/will-lucena.png'
 import CustomHeading from '@/components/CustomHeading.vue'
 import Paragraph from '@/components/Paragraph.vue'
 import { ref } from 'vue'
@@ -37,10 +38,10 @@ const projects = ref([
     url: 'https://casabellaconstrucao.com.br/'
   },
   {
-    imageSource: '',
+    imageSource: WillLucena,
     name: 'Portolio Will Lucena',
     description: 'Desenvolvido com Vue + Vite + Tailwind',
-    url: 'https://github.com/will-lucena'
+    url: 'https://will-lucena.vercel.app'
   }
   // {
   //   imageSource: '',
