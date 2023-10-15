@@ -1,11 +1,6 @@
 <template>
-  <section class="m-auto flex flex-col justify-center items-center gap-2">
-    <img
-      class="rounded-full object-cover"
-      src="https://avatars.githubusercontent.com/u/11667114?v=4"
-      alt="Will Lucena"
-    />
-    <div>
+  <section class="m-auto flex flex-row justify-center items-center gap-2">
+    <div class="flex flex-col gap-2">
       <CustomHeading level="h2" class="text-center mb-4">Me chamo Will</CustomHeading>
       <Paragraph>
         Sou desenvolvedor frontend, trabalho com VueJs a 5+ anos nos quais atuei em fintechs e
@@ -17,18 +12,25 @@
         conhecimento
       </Paragraph>
       <Paragraph> Atualmente moro em Natal/RN, Brasil </Paragraph>
+
+      <div class="flex w-full flex-row justify-center gap-4 my-4">
+        <a href="https://github.com/will-lucena">
+          <CustomIcon icon="fab fa-github" size="2xl" />
+        </a>
+        <a href="https://www.linkedin.com/in/will-lucena/">
+          <CustomIcon icon="fab fa-linkedin" size="2xl" />
+        </a>
+        <a href="https://www.instagram.com/will.lucenads/">
+          <CustomIcon icon="fab fa-instagram" size="2xl" />
+        </a>
+      </div>
     </div>
-    <div class="flex flex-row gap-4">
-      <a href="https://github.com/will-lucena">
-        <CustomIcon icon="fab fa-github" size="2xl" />
-      </a>
-      <a href="https://www.linkedin.com/in/will-lucena/">
-        <CustomIcon icon="fab fa-linkedin" size="2xl" />
-      </a>
-      <a href="https://www.instagram.com/will.lucenads/">
-        <CustomIcon icon="fab fa-instagram" size="2xl" />
-      </a>
-    </div>
+
+    <img
+      class="rounded-full object-cover max-w-[200px]"
+      src="https://avatars.githubusercontent.com/u/11667114?v=4"
+      alt="Will Lucena"
+    />
   </section>
 
   <!-- <section>
