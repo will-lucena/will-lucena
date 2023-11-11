@@ -1,5 +1,5 @@
 <template>
-  <main class="my-auto flex flex-col">
+  <main class="flex flex-col gap-2">
     <CustomHeading level="h2" class="text-center sm:text-left"> Projetos </CustomHeading>
 
     <section class="flex flex-row gap-8 flex-wrap">

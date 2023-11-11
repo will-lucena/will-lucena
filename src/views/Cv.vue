@@ -3,17 +3,17 @@
     <header class="flex flex-col sm:flex-row gap-4 items-center sm:justify-between">
       <CustomHeading level="h2" class="text-2xl">William Lucena dos Santos</CustomHeading>
       <div class="flex flex-row gap-4 items-center">
-        <a href="https://github.com/will-lucena" class="hover:underline">
+        <a href="https://github.com/will-lucena" target="_blank" class="hover:underline">
           <CustomIcon icon="fab fa-github" size="xl"> Github</CustomIcon>
         </a>
-        <a href="https://www.linkedin.com/in/will-lucena/" class="hover:underline">
+        <a href="https://www.linkedin.com/in/will-lucena/" target="_blank" class="hover:underline">
           <CustomIcon icon="fab fa-linkedin" size="xl"> Linkedin</CustomIcon>
         </a>
-        <a href="https://www.instagram.com/will.lucenads/" class="hover:underline">
+        <a href="https://www.instagram.com/will.lucenads/" target="_blank" class="hover:underline">
           <CustomIcon icon="fab fa-instagram" size="xl"> Instagram</CustomIcon>
         </a>
 
-        <a> <CustomIcon icon="fas fa-location-dot" size="lg"> Natal, Brazil</CustomIcon> </a>
+        <a> <CustomIcon icon="fas fa-location-dot" size="lg"> Natal, Brasil</CustomIcon> </a>
       </div>
     </header>
 

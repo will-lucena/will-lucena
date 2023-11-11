@@ -33,7 +33,10 @@ const router = createRouter({
         title: 'Blog | Will Lucena'
       }
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { top: 0 }
+  }
 })
 
 const DEFAULT_TITLE = 'Will Lucena'

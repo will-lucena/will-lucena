@@ -1,17 +1,17 @@
 <template>
-  <h1 v-if="h1" v-bind="$attrs" class="text-4xl sm:text-5xl text-neutral-950 dark:text-neutral-50">
+  <h1 v-if="h1" v-bind="$attrs" class="text-4xl sm:text-3xl text-neutral-950 dark:text-neutral-50">
     <slot></slot>
   </h1>
-  <h2 v-if="h2" v-bind="$attrs" class="text-3xl sm:text-4xl text-neutral-950 dark:text-neutral-50">
+  <h2 v-if="h2" v-bind="$attrs" class="text-3xl sm:text-2xl text-neutral-950 dark:text-neutral-50">
     <slot></slot>
   </h2>
-  <h3 v-if="h3" v-bind="$attrs" class="text-2xl sm:text-3xl text-neutral-950 dark:text-neutral-50">
+  <h3 v-if="h3" v-bind="$attrs" class="text-2xl sm:text-xl text-neutral-950 dark:text-neutral-50">
     <slot></slot>
   </h3>
-  <h4 v-if="h4" v-bind="$attrs" class="text-xl sm:text-2xl text-neutral-950 dark:text-neutral-50">
+  <h4 v-if="h4" v-bind="$attrs" class="text-xl sm:text-lg text-neutral-950 dark:text-neutral-50">
     <slot></slot>
   </h4>
-  <h5 v-if="h5" v-bind="$attrs" class="text-lg sm:xl text-neutral-950 dark:text-neutral-50">
+  <h5 v-if="h5" v-bind="$attrs" class="text-lg sm:text-base text-neutral-950 dark:text-neutral-50">
     <slot></slot>
   </h5>
 </template>
