@@ -1,4 +1,5 @@
 import './assets/main.css'
+import { i18n } from '@/localization'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -29,4 +30,4 @@ library.add(
 
 const app = createApp(App)
 
-app.use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+app.use(router).use(i18n).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

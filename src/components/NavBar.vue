@@ -5,7 +5,7 @@
         class="text-slate-950 dark:text-neutral-50 hover:underline focus:underline"
         :to="pagePath"
       >
-        {{ menuItem }}
+        {{ $t(`header.menuItems.${menuItem}`) }}
       </router-link>
     </li>
     <li>

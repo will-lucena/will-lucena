@@ -30,7 +30,7 @@
             @click="toggleSideMenu"
           >
             <router-link class="dark:text-neutral-50 text-slate-950" :to="pagePath">
-              {{ menuItem }}
+              {{ $t(`header.menuItems.${menuItem}`) }}
             </router-link>
           </li>
         </ul>

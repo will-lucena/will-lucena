@@ -22,15 +22,15 @@ import SideDrawer from './SideDrawer.vue'
 
 const menuItems = ref([
   {
-    menuItem: 'Projetos',
+    menuItem: 'projects',
     pagePath: '/projetos'
   },
   {
-    menuItem: 'Curriculo',
+    menuItem: 'cv',
     pagePath: '/cv'
   },
   {
-    menuItem: 'Blog',
+    menuItem: 'blog',
     pagePath: `/blog`
   }
 ])
