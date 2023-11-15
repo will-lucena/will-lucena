@@ -38,9 +38,9 @@ export const enUS = {
     },
     presentation1: `I'm a frontend developer with 5+ years of experience with VueJs at fintechs and healthtechs, before it I've studied game development with Unity for 3+ years`,
     presentation2:
-      'Durante minha graduação tive mais proximidade com o backend, o que me ajuda bastante hoje como dev front na comunicação com meus pares backenders, assim como ter atuado como gamedev, um ambiente bastante multidisciplinar me trouxe beneficios nas trocas com pessoas não tecnicas como designers e PMs',
+      'At my college I was more like a backend developer, nowadays I can see it helps me as a frontend developer to pair with my backend teammates, just like working in a so diverse environmnet as game development helps me communicate better with non technical people like designers and PMs/POs',
     presentation3:
-      'Adoro compartilhar conhecimento e aprender coisas novas, relacionadas ou não sobre tecnologia, meus tópicos preferidos são: esportes, especialmente basquete; jogos, finanças, ficção e coisas aleatórias como a história do café ou porque pessoas agem como agem',
-    presentation4: 'Atualmente moro em Natal/RN, Brasil'
+      'I love share knowledge and learn new stuff, tech or not. Some of my preferred topics are: sports, specially basketball, videogames and boardgames, finances, sci-fi and random stuff like coffee history or why people behaves like behaves',
+    presentation4: `Currently I'm living at Natal/RN, Brazil`
   }
 }
