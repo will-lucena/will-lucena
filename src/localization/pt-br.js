@@ -43,5 +43,33 @@ export const ptBr = {
     presentation3:
       'Adoro compartilhar conhecimento e aprender coisas novas, relacionadas ou não sobre tecnologia, meus tópicos preferidos são: esportes, especialmente basquete; jogos, finanças, ficção e coisas aleatórias como a história do café ou porque pessoas agem como agem',
     presentation4: 'Atualmente moro em Natal/RN, Brasil'
+  },
+  cv: {
+    location: 'Natal, Brasil',
+    presentation1: `Sou Desenvolvedor frontend especializado em VueJs, escolhi Vue como minha stack primária devido a seu estilo de escrita, pouco opinativo (como react), porém fácil de organizar (sem JSX). Desde antes até da minha graduação em Tecnologia da Informação sempre tive interesse em boas práticas de programação, padrões de projeto (mesmo que não soubesse o nome disso ainda) e defensor da ideia de que um código sem comentários com bons nomes de variáveis, métodos e classes é suficiente e mais produtivo.`,
+    presentation2: `Comecei minha tragetória como desenvolvedor com desenvolvimento de jogos com Unity + C# e backend com Java, depois de um bom tempo que despertei o interesse pelo lado frontend da força e não larguei mais. Graças a esse background de backend da faculdade consigo conversar bem com meus pares backenders e encontrar onde seria o melhor lugar pra determinada solução (front vs back) e com meu tempo de jogos tive oportunidade de trabalhar com profissionais diversos como artitas 2D, 3D, músicos, game designers o que me ajudou (e ajuda até hoje) a me comunicar com pessoas de produto e design.`,
+    presentation3: `Sou bastante comunicativo, sempre participativo em reuniões e dando meu pitaco nas soluções propostas - topdown não é meu forte. Gosto de compartilhar conhecimento, desenvolver relações e contribuir pra que o ambiente de trabalho seja agradável e seguro pra todos.`,
+    contentHeader: 'Experiência profissional',
+    alice: {
+      name: 'Alice Tecnologia',
+      period: 'Maio/2022 - Agosto/2023',
+      description1: `Como Engenheiro Frontend atuei em projetos de backoffice`,
+      description2: `, no site público da alice`,
+      description3: `e no principal sistema da empresa, o sistema de controle de saúde`,
+      description4: `Além de participar em 2 migrações do vue2 para vue3.`
+    },
+    ctbz: {
+      name: 'Contabilizei',
+      period: 'Junho/2021 - Abril/2022',
+      description1: "During my time there I've worked on fintech and payment modules",
+      description2: `We've helped our users on:`,
+      description3: `charging using pix`,
+      description4: `paying their taxes in a single and simplified payment`,
+      description5:
+        'As the more senior and older frontend developer in the team I was responsible for maintaining the legacy codebase',
+      description6:
+        ' and onboarding and mentoring new frontend devs, where I could engage everyone to build a good working environment.',
+      description7: 'Also I was frontend chapter staff and host.'
+    }
   }
 }

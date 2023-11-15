@@ -13,58 +13,67 @@
           <CustomIcon icon="fab fa-instagram" size="xl"> Instagram</CustomIcon>
         </a>
 
-        <a> <CustomIcon icon="fas fa-location-dot" size="lg"> Natal, Brasil</CustomIcon> </a>
+        <a>
+          <CustomIcon icon="fas fa-location-dot" size="lg"> {{ $t('cv.location') }}</CustomIcon>
+        </a>
       </div>
     </header>
 
     <Paragraph>
-      Sou Desenvolvedor frontend especializado em VueJs, escolhi Vue como minha stack primária
-      devido a seu estilo de escrita, pouco opinativo (como react), porém fácil de organizar (sem
-      JSX). Desde antes até da minha graduação em Tecnologia da Informação sempre tive interesse em
-      boas práticas de programação, padrões de projeto (mesmo que não soubesse o nome disso ainda) e
-      defensor da ideia de que um código sem comentários com bons nomes de variáveis, métodos e
-      classes é suficiente e mais produtivo.
+      {{ $t('cv.presentation1') }}
+    </Paragraph>
+    <Paragraph>
+      {{ $t('cv.presentation2') }}
     </Paragraph>
 
     <Paragraph>
-      Comecei minha tragetória como desenvolvedor com desenvolvimento de jogos com Unity + C# e
-      backend com Java, depois de um bom tempo que despertei o interesse pelo lado frontend da força
-      e não larguei mais. Graças a esse background de backend da faculdade consigo conversar bem com
-      meus pares backenders e encontrar onde seria o melhor lugar pra determinada solução (front vs
-      back) e com meu tempo de jogos tive oportunidade de trabalhar com profissionais diversos como
-      artitas 2D, 3D, músicos, game designers o que me ajudou (e ajuda até hoje) a me comunicar com
-      pessoas de produto e design.
-    </Paragraph>
-
-    <Paragraph>
-      Sou bastante comunicativo, sempre participativo em reuniões e dando meu pitaco nas soluções
-      propostas - topdown não é meu forte. Gosto de compartilhar conhecimento, desenvolver relações
-      e contribuir pra que o ambiente de trabalho seja agradável e seguro pra todos.
+      {{ $t('cv.presentation3') }}
     </Paragraph>
 
     <hr class="w-full bg-neutral-950 bg:text-neutral-50" />
 
-    <CustomHeading level="h3">Experiência profissional</CustomHeading>
+    <CustomHeading level="h3">{{ $t('cv.contentHeader') }}</CustomHeading>
     <section class="flex flex-col gap-8">
       <div class="flex flex-col gap-4">
         <div class="flex flex-row justify-between items-baseline gap-4">
-          <CustomHeading level="h4"><strong>Alice Tecnologia</strong></CustomHeading>
-          <Paragraph class="sm:text-sm text-right">Maio/2022 - Agosto/2023</Paragraph>
+          <CustomHeading level="h4"
+            ><strong>{{ $t('cv.alice.name') }}</strong></CustomHeading
+          >
+          <Paragraph class="sm:text-sm text-right">{{ $t('cv.alice.period') }}</Paragraph>
         </div>
         <Paragraph>
-          Como Engenheiro Frontend atuei em projetos de backoffice <strong>(VueJs)</strong>, no site
-          público da alice <strong>(Nuxt)</strong> e no principal sistema da empresa, o sistema de
-          controle de saúde <strong>(VueJs)</strong>.
+          {{ $t('cv.alice.description1') }} <strong>(VueJs)</strong>
+          {{ $t('cv.alice.description2') }} <strong>(Nuxt)</strong>
+          {{ $t('cv.alice.description3') }} <strong>(VueJs)</strong>.
+          {{ $t('cv.alice.description4') }}
         </Paragraph>
 
-        <Paragraph>Além de participar em 2 migrações do vue2 para vue3. </Paragraph>
+        <ol>
+          <li>
+            <Paragraph>
+              {{ $t('cv.alice.description5') }}
+            </Paragraph>
+          </li>
+          <li>
+            <Paragraph>
+              {{ $t('cv.alice.description6') }}
+            </Paragraph>
+          </li>
+          <li>
+            <Paragraph>
+              {{ $t('cv.alice.description7') }}
+            </Paragraph>
+          </li>
+        </ol>
+
+        <Paragraph> {{ $t('cv.alice.description8') }} </Paragraph>
         <hr class="w-1/2 bg-neutral-950 bg:text-neutral-50" />
       </div>
 
       <div class="flex flex-col gap-4">
         <div class="flex flex-row justify-between items-baseline gap-4">
           <CustomHeading level="h4"><strong>Contabilizei</strong></CustomHeading>
-          <Paragraph class="sm:text-sm text-right">Junho/2021 - Abril/2022</Paragraph>
+          <Paragraph class="sm:text-sm text-right"></Paragraph>
         </div>
         <Paragraph>
           Como Desenvolvedor Frontend trabalhei nos módulos de fintech e pagamento
@@ -77,6 +86,34 @@
           Além disso dei suporte e participei da migração de uma funcionalidade do sistema legado
           <strong>(Angular)</strong> para o novo <strong>(VueJs)</strong>
         </Paragraph>
+
+        <ol>
+          <li>
+            <Paragraph>
+              {{ $t('cv.ctbz.description3') }}
+            </Paragraph>
+          </li>
+          <li>
+            <Paragraph>
+              {{ $t('cv.ctbz.description4') }}
+            </Paragraph>
+          </li>
+          <li>
+            <Paragraph>
+              {{ $t('cv.ctbz.description5') }}
+            </Paragraph>
+          </li>
+        </ol>
+
+        <Paragraph>
+          {{ $t('cv.ctbz.description6') }} <strong>(Angular)</strong>
+          {{ $t('cv.ctbz.description7') }}
+        </Paragraph>
+
+        <Paragraph>
+          {{ $t('cv.ctbz.description8') }}
+        </Paragraph>
+
         <hr class="w-1/2 bg-neutral-950 bg:text-neutral-50" />
       </div>
 
