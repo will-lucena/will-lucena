@@ -1,6 +1,6 @@
 <template>
   <section class="m-auto lg:h-[90vh] flex flex-col justify-center gap-8">
-    <div class="flex flex-col lg:flex-row items-center flex-1">
+    <div class="flex flex-col md:flex-row items-center flex-1 md:gap-8">
       <div class="flex flex-col gap-2">
         <CustomHeading level="h2" class="text-center mb-4">
           {{ $t('index.greetings') }}
@@ -30,7 +30,7 @@
       </div>
 
       <img
-        class="rounded-full object-cover max-w-[400px]"
+        class="rounded-full object-cover max-w-[270px] sm:max-w-[400px]"
         src="https://avatars.githubusercontent.com/u/11667114?v=4"
         alt="Will Lucena"
       />
@@ -41,9 +41,9 @@
     </CustomHeading>
   </section>
 
-  <section class="m-auto flex flex-col lg:flex-row justify-center items-center gap-8">
+  <section class="m-auto flex flex-col md:flex-row justify-center items-center gap-8">
     <img
-      class="rounded-lg object-cover max-w-[400px]"
+      class="rounded-lg object-cover max-w-[270px] sm:max-w-[400px]"
       src="@/assets/will-e-zeus.jpg"
       alt="Will Lucena"
     />
