@@ -76,6 +76,48 @@ export const enUS = {
       description7:
         ' and onboarding and mentoring new frontend devs, where I could engage everyone to build a good working environment.',
       description8: 'Also I was frontend chapter staff and host.'
+    },
+    flourish: {
+      name: 'Flourish',
+      period: 'January/2019 - June/2021',
+      description1:
+        'It was my first professional job. There I improved my English, learn how to work remote with different time zones and outsourced developers while I develop all their client side projects, as mobile app ',
+      description2: 'embedded mini-game',
+      description3: 'institutional page',
+      description4: 'and white label application',
+      description5: "At Flourish We've helped:",
+      description6: 'more than 10k users save using our mobile app',
+      description7: 'more than 1m users save with our gamification white label solution'
+    },
+    scollarship: {
+      header: 'Education',
+      university: 'Federal University of Rio Grande do Norte, UFRN - Brazil',
+      course: 'Bachelor of Information Technology',
+      period: '2015 - 2019'
+    },
+    skills: {
+      header: 'Sopa de letrinhas',
+      languages: {
+        header: 'Languages',
+        content: 'Javascript, Typescript, HTML, CSS, SCSS, Java, Ruby, C#'
+      },
+      frameworks: {
+        header: 'Frameworks',
+        content: 'VueJs, ReactJs, Angular, Spring, Rails, .NET, Unity, Node'
+      },
+      tools: {
+        header: 'Libs, Platforms and Tools',
+        content:
+          'Tailwind, Bootstrap, Vuetify, Amplitude, GCP, AWS, Sentry, Datadog, Mixpanel, Github actions, Jenkins, GIT, Express'
+      },
+      testing: {
+        header: 'Testing',
+        content: 'Jest, Testing library, Cypress, JUnit'
+      },
+      methodologies: {
+        header: 'Methodologies',
+        content: 'Scrum, Kanban, TDD, DDD, Design Thinking'
+      }
     }
   }
 }

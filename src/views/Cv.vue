@@ -48,18 +48,18 @@
           {{ $t('cv.alice.description4') }}
         </Paragraph>
 
-        <ol>
-          <li>
+        <ol class="list-disc px-8">
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.alice.description5') }}
             </Paragraph>
           </li>
-          <li>
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.alice.description6') }}
             </Paragraph>
           </li>
-          <li>
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.alice.description7') }}
             </Paragraph>
@@ -73,32 +73,24 @@
       <div class="flex flex-col gap-4">
         <div class="flex flex-row justify-between items-baseline gap-4">
           <CustomHeading level="h4"><strong>Contabilizei</strong></CustomHeading>
-          <Paragraph class="sm:text-sm text-right"></Paragraph>
+          <Paragraph class="sm:text-sm text-right">{{ $t('cv.ctbz.period') }}</Paragraph>
         </div>
         <Paragraph>
-          Como Desenvolvedor Frontend trabalhei nos módulos de fintech e pagamento
-          <strong>(VueJs)</strong>, atuei como organizador do chapter e dentre minhas atividades
-          como desenvolvedor mais antigo do time fiz onboardings e mentorias de novatos e construir
-          uma boa cultura de trabalho.
+          {{ $t('cv.ctbz.description1') }} <strong>(VueJs)</strong>,
+          {{ $t('cv.ctbz.description2') }}
         </Paragraph>
-
-        <Paragraph>
-          Além disso dei suporte e participei da migração de uma funcionalidade do sistema legado
-          <strong>(Angular)</strong> para o novo <strong>(VueJs)</strong>
-        </Paragraph>
-
-        <ol>
-          <li>
+        <ol class="list-disc px-8">
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.ctbz.description3') }}
             </Paragraph>
           </li>
-          <li>
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.ctbz.description4') }}
             </Paragraph>
           </li>
-          <li>
+          <li class="text-neutral-950 dark:text-neutral-50">
             <Paragraph>
               {{ $t('cv.ctbz.description5') }}
             </Paragraph>
@@ -119,57 +111,68 @@
 
       <div class="flex flex-col gap-4">
         <div class="flex flex-row justify-between items-baseline gap-4">
-          <CustomHeading level="h4"><strong>Flourish</strong></CustomHeading>
-          <Paragraph class="sm:text-sm text-right">Janeiro/2019 - Junho/2021</Paragraph>
+          <CustomHeading level="h4"
+            ><strong>{{ $t('cv.flourish.name') }}</strong></CustomHeading
+          >
+          <Paragraph class="sm:text-sm text-right">{{ $t('cv.flourish.period') }}</Paragraph>
         </div>
         <Paragraph>
-          Fui o primeiro desenvolvedor da empresa, uma startup californiana, trabalhando em conjunto
-          com devs de uma software house e atuei em todos os projetos client side:
+          {{ $t('cv.flourish.description1') }} <strong>(NativeScript + Vue)</strong>
+          {{ $t('cv.flourish.description2') }} <strong>(CocosJs)</strong>
+          {{ $t('cv.flourish.description3') }} <strong>(Nuxt)</strong>
+          {{ $t('cv.flourish.description4') }} <strong>(VueJs)</strong>.
+          {{ $t('cv.flourish.description5') }}
         </Paragraph>
 
-        <Paragraph>
-          Aplicativo mobile <strong>(NativeScript + Vue)</strong>; minigame
-          <strong>(Cocos 2D)</strong>; página institucional <strong>(Nuxt)</strong>; e sistema white
-          label <strong>(VueJs)</strong>.
-        </Paragraph>
+        <ol class="list-disc px-8">
+          <li class="text-neutral-950 dark:text-neutral-50">
+            <Paragraph>
+              {{ $t('cv.flourish.description6') }}
+            </Paragraph>
+          </li>
+          <li class="text-neutral-950 dark:text-neutral-50">
+            <Paragraph>
+              {{ $t('cv.flourish.description7') }}
+            </Paragraph>
+          </li>
+        </ol>
       </div>
     </section>
 
     <hr class="w-full bg-neutral-950 bg:text-neutral-50" />
 
-    <CustomHeading level="h3">Escolaridade</CustomHeading>
+    <CustomHeading level="h3">{{ $t('cv.scollarship.header') }}</CustomHeading>
     <CustomHeading level="h4">
-      <strong>Universidade Federal do Rio Grande do Norte, UFRN - Brasil </strong>
+      <strong>{{ $t('cv.scollarship.university') }}</strong>
     </CustomHeading>
-    <Paragraph>
-      Bacharelado em Tecnologia da Informação/Engenharia de Software. Turma 2019.2
-    </Paragraph>
+    <Paragraph> {{ $t('cv.scollarship.course') }}, {{ $t('cv.scollarship.period') }} </Paragraph>
 
     <hr class="w-full bg-neutral-950 bg:text-neutral-50" />
 
-    <CustomHeading level="h3">Sopa de letrinhas</CustomHeading>
+    <CustomHeading level="h3">{{ $t('cv.skills.header') }}</CustomHeading>
     <Paragraph class="text-center sm:text-left">
-      <strong>Tive oportunidade de trabalhar com as tecnologias e ferramentas</strong>
-    </Paragraph>
-    <Paragraph class="sm:text-sm">
-      VueJs (2 e 3), Nuxt, Javascript, Typescript, Angular, Ruby, AWS, GCP, Firebase, Github
-      actions, Jenkins, CI/CD, Cypress, Jest, Testing Library, Unity, C#, Figma, Amplitude,
-      MixPanel, Datadog, Cocos2d e provavelmente outras que esqueci
+      <strong>{{ $t('cv.skills.languages.header') }}:</strong>
+      {{ $t('cv.skills.languages.content') }}
     </Paragraph>
 
-    <Paragraph class="text-center sm:text-left"
-      ><strong>Tive oportunidade de trabalhar com as metodologias</strong></Paragraph
-    >
-    <Paragraph class="sm:text-sm">
-      Scrum, Kanban, Design Thinking, DDD, TDD, Mobile First e provavelmente outras que esqueci
+    <Paragraph class="text-center sm:text-left">
+      <strong>{{ $t('cv.skills.frameworks.header') }}:</strong>
+      {{ $t('cv.skills.frameworks.content') }}
     </Paragraph>
 
-    <Paragraph class="text-center sm:text-left"
-      ><strong>Tive oportunidade de estudar as tecnologias</strong></Paragraph
-    >
-    <Paragraph class="sm:text-sm">
-      React, Java, Python, Bancos SQL e NoSQL, Godot, Unreal engine, Redis, Mongo, Node, Spring e
-      provavelmente outras que esqueci
+    <Paragraph class="text-center sm:text-left">
+      <strong>{{ $t('cv.skills.tools.header') }}:</strong>
+      {{ $t('cv.skills.tools.content') }}
+    </Paragraph>
+
+    <Paragraph class="text-center sm:text-left">
+      <strong>{{ $t('cv.skills.testing.header') }}:</strong>
+      {{ $t('cv.skills.testing.content') }}
+    </Paragraph>
+
+    <Paragraph class="text-center sm:text-left">
+      <strong>{{ $t('cv.skills.methodologies.header') }}:</strong>
+      {{ $t('cv.skills.methodologies.content') }}
     </Paragraph>
   </div>
 </template>

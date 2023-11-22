@@ -1,4 +1,4 @@
-export const ptBr = {
+export const ptBR = {
   footer: 'Desenvolvido por Will Lucena',
   header: {
     menuItems: {
@@ -53,23 +53,73 @@ export const ptBr = {
     alice: {
       name: 'Alice Tecnologia',
       period: 'Maio/2022 - Agosto/2023',
-      description1: `Como Engenheiro Frontend atuei em projetos de backoffice`,
-      description2: `, no site público da alice`,
-      description3: `e no principal sistema da empresa, o sistema de controle de saúde`,
-      description4: `Além de participar em 2 migrações do vue2 para vue3.`
+      description1: `Trabalhei nos projetos de backoffice`,
+      description2: `, no site público e de captação de leads`,
+      description3: `, no sistema de registro clínico (EHR) - a principal aplicação da empresa`,
+      description4: `Trabalhando de forma sempre próxima a designers e devs backend para entregar a melhor solução fomos capazes de:`,
+      description5: `reduzir o custo de consultas em 20%`,
+      description6: `melhorar um dos passos do funil de aquisição em 100%`,
+      description7: `agilizar operações e melhorar a qualidade de trabalho do time de operação`,
+      description8: `Também participei na migração de dois projetos do vue2 para o vue3, contribui com o time de plataforma com a organização do chapter de frontend e desenvolvimento de ferramentas internas.`
     },
     ctbz: {
       name: 'Contabilizei',
       period: 'Junho/2021 - Abril/2022',
-      description1: "During my time there I've worked on fintech and payment modules",
-      description2: `We've helped our users on:`,
-      description3: `charging using pix`,
-      description4: `paying their taxes in a single and simplified payment`,
-      description5:
-        'As the more senior and older frontend developer in the team I was responsible for maintaining the legacy codebase',
+      description1:
+        'Durante meu período na Contabilizei trabalhei nos módulos de fintech e pagamentos',
+      description2: `Ajudamos nossos clientes a:`,
+      description3: `gerenciar suas cobranças`,
+      description4: 'realizar cobranças com pix',
+      description5: `pagamento unificado e simplificado de impostos`,
       description6:
-        ' and onboarding and mentoring new frontend devs, where I could engage everyone to build a good working environment.',
-      description7: 'Also I was frontend chapter staff and host.'
+        'Como desenvolvedor frontend mais sênior do time fui responsável por dar manutenção no sistema legado ',
+      description7:
+        'da empresa e fazer onboarding e mentoria de novos devs frontend, onde tive a oportunidade de disseminar uma cultura agradável, segura e saudável de trabalho.',
+      description8:
+        'Também me envolvi na organização do chapter frontend, fui host e apresentei alguns temas.'
+    },
+    flourish: {
+      name: 'Flourish',
+      period: 'Janeiro/2019 - Junho/2021',
+      description1:
+        'Na Flourish pude melhorar meu inglês, trabalhar de forma remota, com vários fuso horários e com desenvolvedores de software house enquanto desenvolvi todas aplicações client side como aplicativo mobile para Android e IOS',
+      description2: ', um minigame embutido',
+      description3: ', a página institucional da empresa',
+      description4: 'e uma aplicação white label',
+      description5: 'Pude ajudar:',
+      description6: 'mais de 10 mil pessoas a poupar dinheiro com o app mobile',
+      description7:
+        'mais de 1 milhão de pessoas a poupar dinheiro com as soluções gamificadas da aplicação white label'
+    },
+    scollarship: {
+      header: 'Educação',
+      university: 'Universidade Federal do Rio Grande do Norte, UFRN',
+      course: 'Bacharelado em Tecnologia da Informação',
+      period: '2015 - 2019'
+    },
+    skills: {
+      header: 'Sopa de letrinhas',
+      languages: {
+        header: 'Linguagens',
+        content: 'Javascript, Typescript, HTML, CSS, SCSS, Java, Ruby, C#'
+      },
+      frameworks: {
+        header: 'Frameworks',
+        content: 'VueJs, ReactJs, Angular, Spring, Rails, .NET, Unity, Node'
+      },
+      tools: {
+        header: 'Bibliotecas, Plataformas e Ferramentas',
+        content:
+          'Tailwind, Bootstrap, Vuetify, Amplitude, GCP, AWS, Sentry, Datadog, Mixpanel, Github actions, Jenkins, GIT, Express'
+      },
+      testing: {
+        header: 'Testing',
+        content: 'Jest, Testing library, Cypress, JUnit'
+      },
+      methodologies: {
+        header: 'Metodologias',
+        content: 'Scrum, Kanban, TDD, DDD, Design Thinking'
+      }
     }
   }
 }
