@@ -1,7 +1,12 @@
 <template>
-  <div class="locale-changer">
-    <select v-model="$i18n.locale">
-      <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">
+  <div>
+    <select v-model="$i18n.locale" class="bg-neutral-800 dark:bg-neutral-50 p-1 rounded">
+      <option
+        v-for="locale in $i18n.availableLocales"
+        :key="`locale-${locale}`"
+        :value="locale"
+        class="text-neutral-50 dark:text-neutral-950"
+      >
         {{ locale }}
       </option>
     </select>

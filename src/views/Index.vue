@@ -43,7 +43,7 @@
 
   <section class="m-auto flex flex-col lg:flex-row justify-center items-center gap-8">
     <img
-      class="rounded-full object-cover max-w-[400px]"
+      class="rounded-lg object-cover max-w-[400px]"
       src="@/assets/will-e-zeus.jpg"
       alt="Will Lucena"
     />
