@@ -30,7 +30,7 @@ export const enUS = {
       'A few days before when I was coding this page I read a interesting question in a recruting process:',
     question: 'What is, in your view, a good engeneering culture?',
     comment: `I've decided to share my answer here`,
-    answer: `IMO a good engeneering culture is developer and goal centered, what do I mean, is the developers must have autonomy and confidence to develop solutions in a wellthy way, maintaining a good todo-challenging kind of tasks balance as also a work-life balance to be able to focus where it's most important and delivery the expected value aligned with deadlines and good code quality`,
+    answer: `IMO a good engeneering culture is developer and goal centered, what do I mean, is the developers must have autonomy and confidence to develop solutions in a wellthy way, maintaining an equilibrium between more challenging and simpler tasks, aiming to achieve a good work-life balance to be able to focus where it's most important and delivery the expected value aligned with deadlines and good code quality`,
     cta: {
       scroll: 'Scroll down to learn more about me',
       cv: 'My resume'
@@ -39,7 +39,7 @@ export const enUS = {
     presentation2:
       'At my college I was more like a backend developer, nowadays I can see it helps me as a frontend developer to pair with my backend teammates, just like working in a so diverse environmnet as game development helps me communicate better with non technical people like designers and PMs/POs',
     presentation3:
-      'I love share knowledge and learn new stuff, tech or not. Some of my preferred topics are: sports, specially basketball, videogames and boardgames, finances, sci-fi and random stuff like coffee history or why people behaves like behaves',
+      'I love to share knowledge and learn new stuff, tech or not. Some of my preferred topics are: sports, specially basketball, videogames and boardgames, finances, sci-fi and random stuff like coffee history or why people behave like behave',
     presentation4: `Currently I'm living at Natal/RN, Brazil`
   },
   cv: {
