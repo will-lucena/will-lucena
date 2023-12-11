@@ -30,7 +30,7 @@ export const enUS = {
       'A few days before when I was coding this page I read a interesting question in a recruting process:',
     question: 'What is, in your view, a good engeneering culture?',
     comment: `I've decided to share my answer here`,
-    answer: `IMO a good engeneering culture is developer and goal centered, what do I mean, is the developers must have autonomy and confidence to develop solutions in a wellthy way, maintaining an equilibrium between more challenging and simpler tasks, aiming to achieve a good work-life balance to be able to focus where it's most important and delivery the expected value aligned with deadlines and good code quality`,
+    answer: `IMO a good engeneering culture is developer and goal centered, by that I mean the developers must have autonomy and confidence to develop solutions in a wellthy way, maintaining an equilibrium between more challenging and simpler tasks, aiming to achieve a good work-life balance to be able to focus where it's most important and delivery the expected value aligned with deadlines and good code quality`,
     cta: {
       scroll: 'Scroll down to learn more about me',
       cv: 'My resume'
@@ -96,7 +96,7 @@ export const enUS = {
       period: '2015 - 2019'
     },
     skills: {
-      header: 'Sopa de letrinhas',
+      header: 'Alphabet soup',
       languages: {
         header: 'Languages',
         content: 'Javascript, Typescript, HTML, CSS, SCSS, Java, Ruby, C#'
