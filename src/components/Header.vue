@@ -7,8 +7,11 @@
         <router-link class="hover:underline" to="/">Will Lucena</router-link>
       </CustomHeading>
 
-      <NavBar :menu-items="menuItems" :theme-icon="themeIcon" @toggle-theme="toggleTheme" />
-      <SideDrawer :menu-items="menuItems" :theme-icon="themeIcon" @toggle-theme="toggleTheme" />
+      <nav class="flex flex-row gap-4">
+        <NavBar :menu-items="menuItems" :theme-icon="themeIcon" @toggle-theme="toggleTheme" />
+        <SideDrawer :menu-items="menuItems" :theme-icon="themeIcon" @toggle-theme="toggleTheme" />
+        <LanguageSwitch />
+      </nav>
     </header>
   </div>
 </template>
@@ -17,20 +20,21 @@
 import CustomHeading from '@/components/CustomHeading.vue'
 
 import { computed, onMounted, ref } from 'vue'
+import LanguageSwitch from './LanguageSwitch.vue'
 import NavBar from './NavBar.vue'
 import SideDrawer from './SideDrawer.vue'
 
 const menuItems = ref([
   {
-    menuItem: 'Projetos',
+    menuItem: 'projects',
     pagePath: '/projetos'
   },
   {
-    menuItem: 'Curriculo',
+    menuItem: 'cv',
     pagePath: '/cv'
   },
   {
-    menuItem: 'Blog',
+    menuItem: 'blog',
     pagePath: `/blog`
   }
 ])

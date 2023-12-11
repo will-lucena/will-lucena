@@ -1,8 +1,10 @@
 <template>
   <main class="flex flex-col gap-2">
-    <CustomHeading level="h2" class="text-center sm:text-left"> Blog </CustomHeading>
+    <CustomHeading level="h2" class="text-center sm:text-left">
+      {{ $t('blog.header') }}
+    </CustomHeading>
     <CustomHeading level="h3" class="text-center sm:text-left">
-      Não falhou pra carregar não, é que to criando essa sessão ainda
+      {{ $t('blog.content') }}
     </CustomHeading>
   </main>
 </template>

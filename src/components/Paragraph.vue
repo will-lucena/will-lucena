@@ -6,4 +6,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+li > p {
+  text-align: left;
+}
+</style>
