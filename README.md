@@ -1,35 +1,14 @@
-# will-lucena
+<h1 align="center">Hi 👋, I'm Will Lucena</h1>
+<h3 align="center">Frontend developer</h3>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=will-lucena&label=Profile%20views&color=0e75b6&style=flat" alt="will-lucena" /> </p>
 
-## Recommended IDE Setup
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=will-lucena" alt="will-lucena" /></a> </p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=will-lucena&show_icons=true&locale=en&layout=compact" alt="will-lucena" /></p>
 
-## Customize configuration
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=will-lucena&show_icons=true&locale=en" alt="will-lucena" /></p>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=will-lucena&" alt="will-lucena" /></p>
 
-## Project Setup
-
-```sh
-yarn
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+<a href="https://app.daily.dev/will_lucena"><img src="https://api.daily.dev/devcards/3eceabb062024f64bf3d6f766efbecde.png?r=0xc" width="400" alt="Will Lucena's Dev Card"/></a>
